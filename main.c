@@ -30,7 +30,6 @@ int main(void)
 		n = strcmp(line, "exit\n");
 		if (n == 0)
 		{
-			printf("exit\n");
 			free(line);
 			exit(98);
 		}
